@@ -122,7 +122,7 @@ export default class Header extends React.Component {
         }
 
         return (
-            <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor}}>
+            <header id="masthead" className="site-header outer" style={{backgroundColor: navBarBackgroundColor, backgroundImage: `url(https://images.ctfassets.net/56puqhwxzxmj/3mugSM0b6pr3H2WD491g1F/fa5fd6dfdafb966cc92762cf5240d252/navbar-background.png)`}}>
                 <div className="inner">
                     <div className="site-header-inside">
                         <div className="site-branding" style={{order: logoPosition}}>

@@ -61,7 +61,7 @@ export default function Action(props) {
             // })}
              style={{backgroundColor: backgroundColor, borderColor: borderColor, borderRadius: borderRadius, padding: `${paddingVertical} ${paddingHorizontal}`}}
         >
-            <span className="" style={{color: textColor, fontSize: `1rem`}}>{label}</span>
+            <span className="" style={{color: textColor, fontSize: `1.3rem`}}>{label}</span>
         </Link>
     );
 }

@@ -70,7 +70,7 @@ export default function SectionHero(props) {
     return (
         <section id={sectionId} className={`block hero-block outer`} style={{background: `linear-gradient( to right, ${backgroundColorLeft}, ${backgroundColorRight})`, backgroundImage: `url(${backgroundImage})`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundPosition:`center`}}>
             <div className="inner">
-                <div className="grid order-container" style={{flexDirection: stackedOrFlat, paddingTop: `3rem`}}>
+                <div className="grid order-container" style={{flexDirection: stackedOrFlat, marginTop: `10rem`}}>
                     {image && (
                         <div className="cell block-preview" style={{order: imagePosition, display: displayHeroImage}}>
                             <img src={withPrefix(image)} alt={imageAlt} />
